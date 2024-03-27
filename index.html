@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TZ Delta Knyazkin</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+    <div class="title">ТЗ Delta. Князькин М.А.</div>
+
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="script.js"></script>
+
+<div class="container">
+  <div class="item indicator header">Показатель</div>
+  <div class="item header current">Текущий день</div>
+  <div class="item yesterday header">Вчера</div>
+  <div class="item week header">Этот день недели</div>
+  
+  <div class="item indicator show">Выручка, руб</div>
+  <div class="item current show">500 521</div>
+  <div class="item yesterday green show">480 521<p class="percent">4%</p></div>
+  <div class="item week red show">4 805 121</div>
+
+  <div id="hidden" class="highcharts-figure hidden">
+    <div id="chart"></div>
+  </div>
+ 
+  <div class="item indicator show_cash">Наличные</div>
+  <div class="item current show_cash">300 000</div>
+  <div class="item yesterday_basic show_cash">300 000</div>
+  <div class="item week show_cash" >300 000</div>
+  
+  <div id="hidden_cash" class="highcharts-figure hidden">
+    <div id="chart2"></div>
+  </div>
+ 
+  <div class="item indicator show_non_cash">Безналичный расчёт</div>
+  <div class="item current show_non_cash">100 000</div>
+  <div class="item yesterday_basic show_non_cash">100 000</div>
+  <div class="item week show_non_cash" >100 000</div>
+  
+  <div id="hidden_non_cash" class="highcharts-figure hidden">
+    <div id="chart3"></div>
+  </div>
+  
+  <div class="item indicator show_credit">Кредитные карты</div>
+  <div class="item current show_credit">100 521</div>
+  <div class="item yesterday_basic show_credit">100 521</div>
+  <div class="item week show_credit" >100 521</div>
+  
+  <div id="hidden_credit" class="highcharts-figure hidden">
+    <div id="chart4"></div>
+  </div>
+  
+  <div class="item indicator show_average_check">Средний чек, руб</div>
+  <div class="item current show_average_check">1 300</div>
+  <div class="item yesterday show_average_check green">900 <p class="percent">44%</p></div>
+  <div class="item week show_average_check green" >900</div>
+  
+  <div id="hidden_average_check" class="highcharts-figure hidden">
+    <div id="chart5"></div>
+  </div>
+  
+  <div class="item indicator show_average_guest">Средний гость, руб</div>
+  <div class="item current show_average_guest">1 000</div>
+  <div class="item yesterday show_average_guest green">800 <p class="percent">50%</p></div>
+  <div class="item week show_average_guest green" >800</div>
+  
+  <div id="hidden_average_guest" class="highcharts-figure hidden">
+    <div id="chart6"></div>
+  </div>
+  
+  <div class="item indicator show_del_after">Удаление из чека (после оплаты), руб</div>
+  <div class="item current show_del_after">1 000</div>
+  <div class="item yesterday show_del_after red">1 100 <p class="percent .percent_red">-9%</p></div>
+  <div class="item week show_del_after green" >900</div>
+  
+  <div id="hidden_del_after" class="highcharts-figure hidden">
+    <div id="chart7"></div>
+  </div>
+  
+  <div class="item indicator show_del_before">Удаление из чека (до оплаты), руб</div>
+  <div class="item current show_del_before">1 300</div>
+  <div class="item yesterday_basic show_del_before">1 200 </div>
+  <div class="item week show_del_before green" >900</div>
+  
+  <div id="hidden_del_before" class="highcharts-figure hidden">
+    <div id="chart8"></div>
+  </div>
+  
+  <div class="item indicator show_cheks_number">Количество чеков</div>
+  <div class="item current show_cheks_number">35</div>
+  <div class="item yesterday show_cheks_number red">34 <p class="percent .percent_red">-6%</p></div>
+  <div class="item week show_cheks_number" >35</div>
+  
+  <div id="hidden_cheks_number" class="highcharts-figure hidden">
+    <div id="chart9"></div>
+  </div>
+  
+  <div class="item indicator show_guests_number">Количество гостей</div>
+  <div class="item current show_guests_number">35</div>
+  <div class="item yesterday show_guests_number red">34 <p class="percent .percent_red">-6%</p></div>
+  <div class="item week show_guests_number green" >33</div>
+  
+  <div id="hidden_guests_number" class="highcharts-figure hidden">
+    <div id="chart10"></div>
+  </div>
+</body>
+</html>

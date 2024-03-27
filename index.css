@@ -1,0 +1,91 @@
+.title {
+  display: block;
+  text-align: left;
+  padding: 15px;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.count {
+  display: inline-block;
+}
+
+.percent {
+  display: inline-block;
+  padding-left: 60%;
+  color: #1d8c00;
+  font-weight: bold;
+}
+
+.percent_red {
+  color: #a60000;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 40% 20% 20% 20%;
+  grid-auto-rows: minmax(45px, auto);
+  max-width: 1280px;
+  grid-gap: 3px;
+  padding: 0.5%;
+
+  font-family: Arial;
+  font-size: 14px;
+  color: #737373;
+  font-weight: 400;
+}
+
+.item {
+  padding: 10px;
+  /*   border: 1px solid black; */
+  background-color: #e7e8e6;
+}
+
+.indicator {
+  background-color: #e7e8e6;
+  text-align: left;
+}
+
+.current {
+  background-color: #d5e5ec;
+  text-align: end;
+  padding-right: 3%;
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+
+.green {
+  background-color: #e0f0e0;
+}
+
+.yesterday_basic {
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+
+.week {
+  text-align: right;
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+
+.red {
+  background-color: #eecece;
+}
+
+.header {
+  text-align: center;
+  background-color: #e7e8e6;
+  vertical-align: middle;
+}
+
+.highcharts-figure {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+}
